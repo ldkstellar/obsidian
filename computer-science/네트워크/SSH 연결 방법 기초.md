@@ -1,0 +1,1 @@
+1. 서버 pc에서 openssh-server를 받고 실해해준다
