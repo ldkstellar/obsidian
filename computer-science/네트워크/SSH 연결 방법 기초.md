@@ -18,3 +18,7 @@ sudo ufw enable
 sudo ufw allow 22
 ```
 
+3. ssh로 접속하기
+```bash
+ssh username@ip주소
+```
