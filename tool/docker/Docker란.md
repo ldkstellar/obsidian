@@ -21,4 +21,5 @@ ros컨테이너안에 애플리케이션등 모든 설정을 담아놓았다.
 - docker run -p 3000:3000 포트 연결 ,이미지 ID
 - docker start는 컨테이너ID
 - docekr exec -it 컨테이너ID로 터미널 모드 진입한다.
-- docker stop Names | 컨테이너 ID
+- docker stop Names | 컨테이너 ID를 사용한다.
+- docker cp
