@@ -15,9 +15,10 @@ ros컨테이너안에 애플리케이션등 모든 설정을 담아놓았다.
 - 도커 컨테이너 
 
 컨테이너는 이미지를 실행시키는 인스턴스이며 핵심은 이미지이다.
-### 명령어
+### 기본 명령어
 - docker ps는 실행중인 명령어 -a는 전체 컨테이너
 - docker run  내 이미지에 이름이 없을 때 docker hub에 찾은 이미지를 컨테이너를 생성 -it 도커내부 대화형 세션 노출
-- docker run -p 3000:3000 포트 연결 ,컨테이너 ID
-- docker start는 현재 실행중인 컨테이너 재실행
-- docker stop Names
+- docker run -p 3000:3000 포트 연결 ,이미지 ID
+- docker start는 컨테이너ID
+- docekr exec -it 컨테이너ID로 터미널 모드 진입한다.
+- docker stop Names | 컨테이너 ID
