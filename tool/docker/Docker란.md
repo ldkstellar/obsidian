@@ -22,4 +22,4 @@ ros컨테이너안에 애플리케이션등 모든 설정을 담아놓았다.
 - docker start는 컨테이너ID
 - docekr exec -it 컨테이너ID로 터미널 모드 진입한다.
 - docker stop Names | 컨테이너 ID를 사용한다.
-- docker cp
+- docker cp ./client.c  bc3e04570d91(컨테이너Id):경로 /sample
