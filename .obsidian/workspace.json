@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1ac2dab782130edd",
+        "id": "06c24d90c4840879",
         "type": "tabs",
         "children": [
           {
-            "id": "89cc19d86617f7f3",
+            "id": "a02916cf35f59364",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "시간표.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "시간표"
             }
           }
         ]
@@ -154,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,11 +171,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89cc19d86617f7f3",
+  "active": "a02916cf35f59364",
   "lastOpenFiles": [
+    "tool/vscode 사용법.md",
+    "시간표.md",
     "tool/docker/Docker란.md",
     "테스트용입니다.치킨은 밥이다.md",
-    "시간표.md",
     "2025-04-19.md",
     "computer-science/데이터구조&알고리즘/재귀 (Recursion).md",
     "language/Python/파이썬 엔진에 관하여.md",
@@ -206,7 +210,6 @@
     "computer-science/운영체제/운영체제.pdf",
     "computer-science/데이터구조&알고리즘/시간과 공간 복잡성.md",
     "language/C++/개체 지향.md",
-    "language/C++/템플릿 클래스(정적타입) VS(동적타입).md",
     "language/무제",
     "computer-science/무제",
     "language/Python",
