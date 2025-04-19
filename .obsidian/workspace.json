@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "331ac04eecfd323a",
+        "id": "1ac2dab782130edd",
         "type": "tabs",
         "children": [
           {
-            "id": "d456e97e755452b7",
+            "id": "89cc19d86617f7f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tool/docker/Docker란.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Docker란"
+              "title": "새 탭"
             }
           }
         ]
@@ -172,8 +168,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d456e97e755452b7",
+  "active": "89cc19d86617f7f3",
   "lastOpenFiles": [
+    "tool/docker/Docker란.md",
+    "테스트용입니다.치킨은 밥이다.md",
     "시간표.md",
     "2025-04-19.md",
     "computer-science/데이터구조&알고리즘/재귀 (Recursion).md",
@@ -193,7 +191,6 @@
     "zImage/Pasted image 20250416155507.png",
     "zImage/Pasted image 20250416154856.png",
     "zImage/Pasted image 20250416154558.png",
-    "tool/docker/Docker란.md",
     "몸관리/홰손 불안을 극복하는 방법.md",
     "몸관리/세로토닌 분비 촉진하는 방법.md",
     "zImage/Pasted image 20250414123830.png",
@@ -210,7 +207,6 @@
     "computer-science/데이터구조&알고리즘/시간과 공간 복잡성.md",
     "language/C++/개체 지향.md",
     "language/C++/템플릿 클래스(정적타입) VS(동적타입).md",
-    "tool/cmake/GLOB 사용금지.md",
     "language/무제",
     "computer-science/무제",
     "language/Python",
