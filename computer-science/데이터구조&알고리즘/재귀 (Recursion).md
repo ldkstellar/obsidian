@@ -15,6 +15,7 @@ O(n) 즉, n .... 1 까지
 
 ##### Static variable in Recursion
 
+정적 변수,글로벌 변수는 코드섹션에 저장이 된다.
 fun(5) = 15
 
 fun(4) + 5 =15
