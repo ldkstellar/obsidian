@@ -13,4 +13,16 @@
 ##### 재귀의 시간 복잡도
 O(n) 즉, n .... 1 까지
 
+##### Static variable in Recursion
 
+fun(5)
+
+fun(4) +
+
+fun(3) +
+
+fun(2) +
+
+fun(1) +
+
+fun(0) +
