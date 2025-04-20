@@ -15,14 +15,16 @@ O(n) 즉, n .... 1 까지
 
 ##### Static variable in Recursion
 
-fun(5)
+fun(5) = 15
 
-fun(4) +
+fun(4) + 5 =15
 
-fun(3) +
+fun(3) + 4 = 10
 
-fun(2) +
+fun(2) + 3 = 6
 
-fun(1) +
+fun(1) + 2 = 3
 
-fun(0) +
+fun(0) + 1 =1
+
+f(0)은 0을 리턴
