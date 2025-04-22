@@ -9,4 +9,8 @@ ros2 nodelist # 실행중인 node의 list를 출력을 한다.
 
 
 리매핑 
-리패핑은 노드의 속성을 재 할당이 가능하다. 노드이름 서비스 네임 커스텀 값 
+리매핑은 노드의 속성을 재할당이 가능하다. 노드이름 서비스 네임 커스텀 값 
+
+``` bash
+ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
+```
