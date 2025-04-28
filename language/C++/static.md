@@ -34,3 +34,5 @@ Math::Square(10);
 
 ##### 생성자를 만들고 싶지 않을 때
 생성자를 private 멤버에  넣는다.
+
+![[Pasted image 20250428141233.png]]
