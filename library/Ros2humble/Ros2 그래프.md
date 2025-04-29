@@ -16,3 +16,6 @@ ros2 nodelist # 실행중인 node의 list를 출력을 한다.
 ``` bash
 ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
 ```
+
+###### 요약
+노드는 근본적인 ros2 엘레먼트인다. 그리고 그것은  단일,모듈 목적의 역할을 한다. 로봇 시스템에서
