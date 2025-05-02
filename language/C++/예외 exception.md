@@ -33,4 +33,5 @@ exception을 사용하면 excetion을 사용하지 않는 쪽보다 어셈블리
 예외처리가 유지보수성이 좋다.
 예외처리가 코드가 안정성이 높다,
 ![[Pasted image 20250502165759.png]]
-
+전체 exception은 try cath문에 코드다 때려 박기 throw 찾기 힘들다.
+함수안에다가 예외처리 코드 병렬 
