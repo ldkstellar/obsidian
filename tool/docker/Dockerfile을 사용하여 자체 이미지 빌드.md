@@ -6,4 +6,6 @@ COPY  . .  첫번째 경로는 컨테이너외부 ,이미지의 외부경로 .�
 
 Run :기본 루트 npm install
 
-docker run -p(우리의 로컬머신의 port가 무엇이 인는지 알려준다.)
+docker run -p(우리의 로컬머신의 port가 무엇이 인는지 알려준다.) 즉 로컬port와 도커 port를 연결하는 역할이다.
+ex: docker run -p 3000:80
+로컬포트 : 도커포트
