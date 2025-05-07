@@ -18,4 +18,4 @@ ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
 ```
 
 ###### 요약
-노드는 근본적인 ros2 엘레먼트인다. 그리고 그것은  단일,모듈 목적을 수행 한다.
+노드는 근본적인 ros2 엘레먼트이다. 그리고 그것은  단일,모듈 목적을 수행 한다.
