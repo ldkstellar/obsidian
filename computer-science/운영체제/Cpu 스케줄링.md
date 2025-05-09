@@ -1,5 +1,5 @@
 
-###### FcFs(first-come first served)
+##### FcFs(First-come First-served)
 
 | process | 금번 cpu 사용시간 |
 | ------- | ----------- |
@@ -7,4 +7,7 @@
 | p2      | 3           |
 | p3      | 3           |
 waiting time: p1: 0 p2: 24 p3: 27
-average wating time
+average wating time: (0 + 24 +27)/3 =17
+
+##### SJF (shortest-Job-First)
+가장 짧은 프로세스를 제일 먼저 스케줄링
