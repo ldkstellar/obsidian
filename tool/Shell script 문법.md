@@ -27,9 +27,17 @@ print "I can speak korean" "helloworld"
 그냥 이름 쓰면 전역변수
 
 ##### 지역변수
+
 ```bash
 function learn(){
 	local learn="english"
 	echo $learn
 }
+```
+
+예약변수 및 환경변수
+```bash
+HOME # 사용자 홈 디렉토리
+
+PATH # 실행 파일을 찾을 디렉토리 경로
 ```
