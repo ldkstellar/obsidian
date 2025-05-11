@@ -40,4 +40,8 @@ function learn(){
 HOME # 사용자 홈 디렉토리
 
 PATH # 실행 파일을 찾을 디렉토리 경로
+
+PWD # 현재 경로
+
+HostName
 ```
