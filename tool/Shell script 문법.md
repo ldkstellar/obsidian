@@ -43,5 +43,11 @@ PATH # 실행 파일을 찾을 디렉토리 경로
 
 PWD # 현재 경로
 
-HostName
+HOSTNAME
+
+USER #로그인한 사용자
+
+USERNAME #로그인한 사용자
+
+
 ```
