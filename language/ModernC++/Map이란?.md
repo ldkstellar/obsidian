@@ -9,6 +9,9 @@ key값으로 찾는거 매핑
 - 두 데이터를 한 단위로 저장하는 구조
 
 ##### insert()
+```cpp
+simpleScoreMap.insert(std::pair<std::string, int>("Mocha", 100));
+```
 - **새요소**를 map에 삽입한다
 - 반복자와 bool값을 한쌍으로 반환
 	-  반복자는 요소를 가리키고
