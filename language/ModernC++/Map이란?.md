@@ -41,3 +41,5 @@ void clear();
 ![[Pasted image 20250519123319.png]]
 ![[Pasted image 20250519123440.png]]
 남이만든 구조체를 활용하는 방법
+
+##### 맵은 hash맵이 아님 정렬되는 맵이다.
