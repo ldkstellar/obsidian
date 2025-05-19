@@ -23,3 +23,8 @@ mapped_type& operator[] (const Key& key)
 - key에 대응하는 값을 참조로 반환한다.
 - map에 키가 없으면 새요소를 삽입
 - map에 키가 있으면 그 값을 덮어씀
+
+##### find()
+iterator find(const key& key);
+- map에서 key를 찾으면 그에 대응하는 값을 가리키는 반복자를 반환
+- 못 찾으면 end()를 반환
