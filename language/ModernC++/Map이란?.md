@@ -23,6 +23,7 @@ mapped_type& operator[] (const Key& key)
 - key에 대응하는 값을 참조로 반환한다.
 - map에 키가 없으면 새요소를 삽입
 - map에 키가 있으면 그 값을 덮어씀
+- 조건문에서도 operator가 동작한다
 
 ##### find()
 iterator find(const key& key);
