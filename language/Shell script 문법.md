@@ -84,5 +84,8 @@ $* # 전체 파라미터
 ```
 
 ##### for문
+```bash
+for language in $@; do
 
+```
 
