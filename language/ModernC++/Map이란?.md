@@ -28,3 +28,12 @@ mapped_type& operator[] (const Key& key)
 iterator find(const key& key);
 - map에서 key를 찾으면 그에 대응하는 값을 가리키는 반복자를 반환
 - 못 찾으면 end()를 반환
+
+##### swap(), clear()
+void swap(map& other);
+- 두 map의 키와 값을 서로 맞바꾼다.
+void clear();
+- map을 비운다.
+
+##### erase()
+한개의 key값의 값을 삭제
