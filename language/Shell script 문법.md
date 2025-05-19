@@ -84,10 +84,14 @@ $* # 전체 파라미터
 ```
 
 ##### for문
+
 ```bash
 for language in $@; do
-	echo echo "I can speak $language"
-
+	echo "I can speak $language"
+done
 
 ```
 
+##### 기본 변수 사용법
+
+- $변수 
