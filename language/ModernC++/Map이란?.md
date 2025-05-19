@@ -37,3 +37,5 @@ void clear();
 
 ##### erase()
 한개의 key값의 값을 삭제
+
+![[Pasted image 20250519123319.png]]
