@@ -4,7 +4,7 @@
 echo "configure build output path"
 
 KERNEL_TOP_PATH="$( cd "$(dirname "$0")" ; pwd -P)" 
-OUTPUT="$KERNEL_TOP_PATH/out"
+OUTPUT="$KERNEL_TOP_PATH/out"# 빌드할 위치 정하기
 echo "$OUTPUT"
 
 KERNEL=kernel8
