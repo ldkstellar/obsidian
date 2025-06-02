@@ -11,7 +11,7 @@ KERNEL=kernel8
 
 cd out
 
-make O=$OUTPUT modules_install #모듈인스털
+make O=$OUTPUT modules_install #모듈 인스톨
 cp $OUTPUT/arch/arm64/boot/dts/broadcom/*.dtb /boot/ # boot에 카피
 cp $OUTPUT/arch/arm64/boot/dts/overlays/*.dtb* /boot/overlays/ #overlays 특수한 기능 에 대체 
 #cp $OUTPUT/arch/arm64/boot/dtts/overlays/README /boot/overlays/
