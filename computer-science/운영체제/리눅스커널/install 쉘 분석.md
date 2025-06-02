@@ -20,4 +20,5 @@ cp $OUTPUT/arch/arm64/boot/Image /boot/$KERNEL.img
 ```
 
 1. vmlinux: 이것은 컴파일된 후의 원본 리눅스 커널 이미지. 디버깅 정보와 기타 메타데이터를 포함할 수있기 때문에 파일크기가 큼
-2. 
+2. vmlinuz: vmlinux를 **압축한 버전** 부팅과정에서 이압축을 풀어 vmlinux와 같은 원래 커널이미지를 메모리에 로드함
+3. kernal8.img vmlinux파일로 만든 것, 압축된 파일. 위에 vmlinuz와 비슷한것 단 아키텍쳐가 armv8용 vmlinuz는 보통 x86
