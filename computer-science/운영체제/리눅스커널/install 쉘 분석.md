@@ -16,6 +16,5 @@ cp $OUTPUT/arch/arm64/boot/dts/broadcom/*.dtb /boot/ # boot에 카피
 cp $OUTPUT/arch/arm64/boot/dts/overlays/*.dtb* /boot/overlays/ #overlays 특수한 기능 에 대체 
 #cp $OUTPUT/arch/arm64/boot/dtts/overlays/README /boot/overlays/
 cp $OUTPUT/arch/arm64/boot/Image /boot/$KERNEL.img
-# 커널의 Image 파일을  kernal.img 파일로 넣는다.
-
+# 커널의 Image 파일을  kernal.img로 바꿔서 복사한다.. 
 ```
