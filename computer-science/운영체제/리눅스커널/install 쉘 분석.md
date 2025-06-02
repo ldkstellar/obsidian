@@ -18,3 +18,6 @@ cp $OUTPUT/arch/arm64/boot/dts/overlays/*.dtb* /boot/overlays/ #overlays 특수�
 cp $OUTPUT/arch/arm64/boot/Image /boot/$KERNEL.img
 # 커널의 Image 파일을  kernal8.img로 바꿔서 복사한다.. 
 ```
+
+1. vmlinux: 이것은 컴파일된 후의 원본 리눅스 커널 이미지. 디버깅 정보와 기타 메타데이터를 포함할 수있기 때문에 파일크기가 큼
+2. 
