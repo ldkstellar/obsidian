@@ -3,3 +3,5 @@
 - std::vector에 좋은 예가 있음
 
 ![[Pasted image 20250602130711.png]]
+
+![[Pasted image 20250602131427.png]]
