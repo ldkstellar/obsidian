@@ -16,4 +16,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 ```
+ 
  interfaces rely on `rosidl_default_generators` for generating language-specific code,
+`rosidl_default_runtime` is a runtime or execution-stage dependency, needed to be able to use the interfaces later.
+
+``` xml
+<depend>geometry_msgs</depend>
+<buildtool_depend>rosidl_default_generators</buildtool_depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+```
