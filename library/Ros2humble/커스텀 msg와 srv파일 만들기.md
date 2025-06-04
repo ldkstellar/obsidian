@@ -3,4 +3,4 @@
 ros2 pkg create --build-type ament_cmake --license Apache-2.0 tutorial_interfaces
 ```
 
-꼭 ament_cmake 패키지로 
+꼭 ament_cmake 패키지로 사용해야한다.
