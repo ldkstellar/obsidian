@@ -5,10 +5,15 @@
 - 컨테이너의 크기를 변경하지 않음 (따라서 추가 메모리 할당도 없음)
 
 ##### STL 알고리듬 유형
+
+algorithm
 - 변경 불가 순차(sequence)연산
+		find ,foreach
 - 변경 가능 순차 연산
-	copy()
+	copy(),swap
 - 정렬 관련 연산
 	sort(),merge()
+	
+numeric
 - 범용 수치 연산
-- 
+		accumulate() 
