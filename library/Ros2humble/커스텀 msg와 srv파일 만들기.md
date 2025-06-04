@@ -27,3 +27,24 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 <member_of_group>rosidl_interface_packages</member_of_group>
 ```
 The `rosidl_interface_packages` is the name of the dependency group that your package, `tutorial_interfaces`, should be associated with, declared using the `<member_of_group>` tag.
+
+Now you can confirm that your interface creation worked by using the `ros2 interface show` command. The output you see in your terminal should look similar to the following:
+
+``` bash
+$ ros2 interface show tutorial_interfaces/msg/Num
+int64 num
+åå
+$ ros2 interface show tutorial_interfaces/msg/Sphere
+geometry_msgs/Point center
+        float64 x
+        float64 y
+        float64 z
+float64 radius
+
+$ ros2 interface show tutorial_interfaces/srv/AddThreeInts
+int64 a
+int64 b
+int64 c
+---
+int64 sum
+```
