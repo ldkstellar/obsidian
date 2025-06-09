@@ -24,4 +24,12 @@ auto name = object.GetName();
 
 ##### 왜 const와 비 const모두 auto로 받을까?
 - 컴파일러가 알아낼 수 있기 때문
-- 
+```cpp
+auto& a = constInt; // const int
+auto& b = nonConstInt; //int
+```
+- 하지만,  이건 const일까 아닐까?
+```cpp
+auto& name = object.GetName();
+```
+- const 참조를 받을 대는 const auto&를 쓰자
