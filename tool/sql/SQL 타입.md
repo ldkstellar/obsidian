@@ -5,3 +5,5 @@ BLOB --binary large object,stores large data
 DATE --'YYYY-MM-DD'
 TIMESTAMP -- 'YYYY-MM-DD HH:MM:SS'
 ```
+
+##### 명령어
