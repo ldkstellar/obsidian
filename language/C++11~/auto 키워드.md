@@ -38,4 +38,6 @@ auto& name = object.GetName();
 - auto 키워드는 함수가 반환하는 걸 저장하는데 때론 유용
 - 함수 반환형이 변해도 **auto**는 그대로
 - 허나 이런 일이 자주 발생할까?
+
 ![[Pasted image 20250609141715.png]]
+![[Pasted image 20250609141906.png]]
