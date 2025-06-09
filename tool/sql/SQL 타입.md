@@ -31,5 +31,11 @@ ALTER TABLE student DROP COLUMN gpa; --remove
 
 ##### row 추가하기
 ```sql
-INSERT INTO student VALUES()
+INSERT INTO student VALUES(1,'Kate','Sociology');
+INSERT INTO student(student_id,name,major) VALUES(4,'Claire','gym');
+```
+
+##### row 수정하기
+```sql
+UPDATE student SET name ="LEE" where student_id =4;
 ```
