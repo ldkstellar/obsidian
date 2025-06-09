@@ -43,3 +43,12 @@ auto& name = object.GetName();
 ![[Pasted image 20250609141906.png]]
 
 ![[Pasted image 20250609143356.png]]
+
+베스트 프랙티스
+- 명시적이어야 함
+1. auto보다 실제 자료형 사용을 권장
+2. 예외:템플릿 매개 변수와 반복자에는 auto사용
+3. auto보단는 auto*를 사용
+4. auto&보다는 const를 사용
+- 전부 가독성과 관련된 것
+- 런타임 성능은 동일
