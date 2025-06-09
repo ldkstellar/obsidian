@@ -41,3 +41,5 @@ auto& name = object.GetName();
 
 ![[Pasted image 20250609141715.png]]
 ![[Pasted image 20250609141906.png]]
+
+![[Pasted image 20250609143356.png]]
