@@ -33,3 +33,9 @@ auto& b = nonConstInt; //int
 auto& name = object.GetName();
 ```
 - const 참조를 받을 대는 const auto&를 쓰자
+
+##### atuo와 함수 반환형
+- auto 키워드는 함수가 반환하는 걸 저장하는데 때론 유용
+- 함수 반환형이 변해도 auto는 그래로
+- 허나 이런 일이 자주 발생할까?
+- 
