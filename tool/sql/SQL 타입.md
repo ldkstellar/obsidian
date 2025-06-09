@@ -10,9 +10,9 @@ TIMESTAMP -- 'YYYY-MM-DD HH:MM:SS'
 
 ```sql
 CREATE TABLE student (
-student_id INT PRIMARY KEY,
+student_id INT PRIMARY KEY, --단독키
 name VARCHAR(20) NOT NULL,
-major VARCHAR(20) UNIQUE
+major VARCHAR(20) UNIQUE -- 
 );
 ```
 
