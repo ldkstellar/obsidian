@@ -39,3 +39,10 @@ INSERT INTO student(student_id,name,major) VALUES(4,'Claire','gym');
 ```sql
 UPDATE student SET name ="LEE" where student_id =4;
 ```
+
+##### unique vs primary key 차이점
+| 항목             | unique | primary key |
+| -------------- | ------ | ----------- |
+| 중복허용           | 불가능    | 불가능         |
+| Null허용         | 허용     | 불가능         |
+| 한 테이블에 여러개 가능? | 가능     | 불가능         |
