@@ -28,3 +28,4 @@ drop table table_name;
 ALTER TABLE student ADD gpa DECIMAL(3,2)  -- ADD
 ALTER TABLE student DROP COLUMN gpa; --remove
 ```
+
