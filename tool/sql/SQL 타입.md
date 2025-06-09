@@ -29,3 +29,7 @@ ALTER TABLE student ADD gpa DECIMAL(3,2)  -- ADD
 ALTER TABLE student DROP COLUMN gpa; --remove
 ```
 
+##### row 추가하기
+```sql
+INSERT INTO student VALUES()
+```
