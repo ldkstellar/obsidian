@@ -21,3 +21,10 @@ describe table_name;
 
 ##### 테이블 삭제
 drop table table_name;
+
+##### 테이블 추가 변경
+
+```sql
+ALTER TABLE student ADD gpa DECIMAL(3,2)  -- ADD
+ALTER TABLE student DROP COLUMN gpa; --remove
+```
