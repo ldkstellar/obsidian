@@ -1,4 +1,12 @@
 pluginlib은 ros패키지에서 로드하고 언로드를 위한 라이브러리 이다.플러그인스는 동적으로 로드할수 있는 라이브러리 이며  **런타임라이브러리**로 부터 로드된다.
 
 pluginlib를 사용하면 클래스를 포함하는 라이브러리에 대해 애플리케이션을 명시적으로 연결할 필요가 없다.
-대신 pluginlib는 라이브러리나 클래스 정의가 폼함된 헤더파일에 대한 사전 인식 없이도 언제든지 내보낸 클래스를 포함하는 라이브러리를 열 수 있다.
+대신 pluginlib는 라이브러리나 클래스 정의가 포함된 헤더파일에 대한 사전 인식 없이도 언제든지 내보낸 클래스를 포함하는 라이브러리를 열 수 있다.
+
+플러그인은 유용하다 확장하거나 변경할때 애플리케이션을 애플리케이션 코드 없이
+
+1. base class 만들기
+```bash
+ros2 pkg create --build-type ament_cmake --license Apache-2.0 --dependencies pluginlib --node-name area_node polygon_base
+```
+
