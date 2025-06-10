@@ -10,3 +10,25 @@ pluginlib를 사용하면 클래스를 포함하는 라이브러리에 대해 �
 ros2 pkg create --build-type ament_cmake --license Apache-2.0 --dependencies pluginlib --node-name area_node polygon_base
 ```
 
+include에 저장
+```cpp
+#ifndef POLYGON_BASE_REGULAR_POLYGON_HPP
+#define POLYGON_BASE_REGULAR_POLYGON_HPP
+
+namespace polygon_base
+{
+  class RegularPolygon
+  {
+    public:
+      virtual void initialize(double side_length) = 0;
+      virtual double area() = 0;
+      virtual ~RegularPolygon(){}
+
+    protected:
+      RegularPolygon(){}
+  };
+}  // namespace polygon_base
+
+#endif  // POLYGON_BASE_REGULAR_POLYGON_HPP
+```
+추상 클래스
