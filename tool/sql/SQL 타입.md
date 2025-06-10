@@ -46,3 +46,14 @@ UPDATE student SET name ="LEE" where student_id =4;
 | 중복허용           | 불가능    | 불가능         |
 | Null허용         | 허용     | 불가능         |
 | 한 테이블에 여러개 가능? | 가능     | 불가능         |
+##### 자동 증가하는 value값
+
+
+```sql
+CREATE TABLE student (
+student_id INT AUTO_INCREMENT, --자동 증가
+name VARCHAR(20) NOT NULL,
+major VARCHAR(20) UNIQUE
+PRIMARY KEY(student_id)
+);
+```
