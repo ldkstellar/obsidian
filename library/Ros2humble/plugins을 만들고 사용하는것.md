@@ -5,12 +5,12 @@ pluginlib를 사용하면 클래스를 포함하는 라이브러리에 대해 �
 
 플러그인은 유용하다 확장하거나 변경할때 애플리케이션을 애플리케이션 코드 없이
 
-1. base class 만들기
+##### 1. base class 만들기
 ```bash
 ros2 pkg create --build-type ament_cmake --license Apache-2.0 --dependencies pluginlib --node-name area_node polygon_base
 ```
 
-include에 저장
+##### 2. include에 저장
 ```cpp
 #ifndef POLYGON_BASE_REGULAR_POLYGON_HPP
 #define POLYGON_BASE_REGULAR_POLYGON_HPP
@@ -30,10 +30,13 @@ namespace polygon_base
 }  // namespace polygon_base
 
 #endif  // POLYGON_BASE_REGULAR_POLYGON_HPP
+// 추상 클래스
 ```
-추상 클래스
+##### 플러그인 패키지 만들기
+```bash
+ros2 pkg create --build-type ament_cmake --license Apache-2.0 --dependencies polygon_base pluginlib --library-name polygon_plugins polygon_plugins
+```
 
-##### source code
 ```cpp
 #include <polygon_base/regular_polygon.hpp>
 #include <cmath>
