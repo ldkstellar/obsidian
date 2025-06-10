@@ -26,8 +26,8 @@ public:
 
     RCLCPP_INFO(this->get_logger(), "Hello %s!", my_param.c_str());
 
-    std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter", "world")};//콜백에서 계속 돌도록
-    this->set_parameters(all_new_parameters);
+    std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter", "world")};
+    this->set_parameters(all_new_parameters);// 초기화
   }
 
 private:
@@ -42,3 +42,4 @@ int main(int argc, char ** argv)
   return 0;
 }
 ```
+이것은 안전
