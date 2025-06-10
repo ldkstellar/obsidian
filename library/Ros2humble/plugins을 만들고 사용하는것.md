@@ -88,3 +88,19 @@ namespace polygon_plugins
 PLUGINLIB_EXPORT_CLASS(polygon_plugins::Square, polygon_base::RegularPolygon)
 PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, polygon_base::RegularPolygon)
 ```
+
+##### plugin 선언 xml
+```xml
+<library path="polygon_plugins">
+  <class type="polygon_plugins::Square" base_class_type="polygon_base::RegularPolygon">
+    <description>This is a square plugin.</description>
+  </class>
+  <class type="polygon_plugins::Triangle" base_class_type="polygon_base::RegularPolygon">
+    <description>This is a triangle plugin.</description>
+  </class>
+</library>
+```
+
+##### 플러그인 사용
+```cpp
+```
