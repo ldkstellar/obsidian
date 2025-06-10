@@ -28,7 +28,7 @@ public:
 
     std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter", "world")};
     this->set_parameters(all_new_parameters);// 초기화
-  }
+  }// 이것은 항상 재설정 상태로 되돌리는것을 보장한다.
 
 private:
   rclcpp::TimerBase::SharedPtr timer_;
@@ -42,4 +42,3 @@ int main(int argc, char ** argv)
   return 0;
 }
 ```
-이것은 안전
