@@ -112,6 +112,7 @@ PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, polygon_base::RegularPolygon)
 </library>
 ```
 플러그인 로더는 해당 라이브러리를 찾고 해당라이브러리내에서 무엇을 참조해야되는  알수있는 방법이 있어야 한다.
+플러그인에 대한 모든 빌수 정보를 Ros툴체인에서 사용할 수있는 xml파일로 만드는 것이다.
 ##### 플러그인 사용
 
 ```cpp
