@@ -16,3 +16,5 @@
 
 ![[Pasted image 20250611134701.png]]
 ![[Pasted image 20250611134930.png]]
+![[Pasted image 20250611135351.png]]
+배열의 크기는 컴파일시 정해지면 sizeof를 사용하면 크기가 나온다.
