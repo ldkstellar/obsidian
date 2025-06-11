@@ -32,6 +32,17 @@ namespace polygon_base
 #endif  // POLYGON_BASE_REGULAR_POLYGON_HPP
 // 추상 클래스
 ```
+
+```cmake
+
+install(
+  DIRECTORY include/
+  DESTINATION include
+)
+
+ament_export_include_directories(include)
+#다른곳에서 시용 가능하도록 한다.
+```
 ##### 플러그인 패키지 만들기
 ```bash
 ros2 pkg create --build-type ament_cmake --license Apache-2.0 --dependencies polygon_base pluginlib --library-name polygon_plugins polygon_plugins
