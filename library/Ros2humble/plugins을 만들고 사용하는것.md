@@ -1,4 +1,4 @@
-pluginlib은 ros패키지에서 로드하고 언로드를 위한 라이브러리 이다.플러그인스는 동적으로 로드할수 있는 라이브러리 이며  **런타임라이브러리**로 부터 로드된다.
+>pluginlib은 ros패키지에서 로드하고 언로드를 위한 라이브러리 이다.플러그인스는 동적으로 로드할수 있는 라이브러리 이며  **런타임라이브러리**로 부터 로드된다.
 
 pluginlib를 사용하면 클래스를 포함하는 라이브러리에 대해 애플리케이션을 명시적으로 연결할 필요가 없다.
 대신 pluginlib는 라이브러리나 클래스 정의가 포함된 헤더파일에 대한 사전 인식 없이도 언제든지 내보낸 클래스를 포함하는 라이브러리를 열 수 있다.
@@ -111,14 +111,16 @@ PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, polygon_base::RegularPolygon)
   </class>
 </library>
 ```
-플러그인 로더는 해당 라이브러리를 찾고 해당라이브러리내에서 무엇을 참조해야되는  알수있는 방법이 있어야 한다.
-플러그인에 대한 모든 빌수 정보를 Ros툴체인에서 사용할 수있는 xml파일로 만드는 것이다.
+
+>플러그인 로더는 해당 라이브러리를 찾고 해당라이브러리내에서 무엇을 참조해야되는  알수있는 방법이 있어야 한다.플러그인에 대한 모든 빌수 정보를 Ros툴체인에서 사용할 수있는 xml파일로 만드는 것이다.
 ##### cmake plugin 선언
 마지막 스텝은 플러그인을 cmakelist.txt로부터 추출하는것이다
+
 ```cmake
 pluginlib_export_plugin_description_file(polygon_base plugins.xml)
 ```
-##### 플러그인 사용
+> **나는 <base_interface>를 기반으로 한 플러그인 구현체를 <xml_file>에 정의했어!”** 라고 ROS 2에게 선언하는 것
+##### 플러그인 사용하기
 
 ```cpp
 #include <pluginlib/class_loader.hpp>
@@ -153,4 +155,3 @@ int main(int argc, char** argv)
 ```
 
 ##### 결론 동적 라이브러리 같은 것이다.
-a
