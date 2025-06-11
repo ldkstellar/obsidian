@@ -15,3 +15,4 @@
 - 많은 경우에 유용함
 
 ![[Pasted image 20250611134701.png]]
+![[Pasted image 20250611134930.png]]
