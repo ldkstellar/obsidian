@@ -99,6 +99,7 @@ namespace polygon_plugins
 PLUGINLIB_EXPORT_CLASS(polygon_plugins::Square, polygon_base::RegularPolygon)
 PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, polygon_base::RegularPolygon)
 ```
+위 단계를 통해 라이브러리가 로드될 때 플러그인 인스턴스가 생성 될수 있다.
 ##### plugin 선언 xml
 ```xml
 <library path="polygon_plugins">
@@ -112,6 +113,7 @@ PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, polygon_base::RegularPolygon)
 ```
 
 ##### 플러그인 사용
+
 ```cpp
 #include <pluginlib/class_loader.hpp>
 #include <polygon_base/regular_polygon.hpp>
