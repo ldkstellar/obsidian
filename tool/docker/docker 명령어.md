@@ -12,6 +12,7 @@ docker logs #컨테이너_이름해당 컨테이너의 로그를 다 출력한�
 
 docker run --name 컨테이너이름 이미지이름 | 이미지id
 
-docker run -it # interactive + terminal
+docker run -it # interactive + t
+docker start -i -a
 ```
 
