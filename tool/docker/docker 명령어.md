@@ -1,3 +1,4 @@
+##### 도커 이미지관련 명령어
 ```bash
 docker ps -a 명령어를 사용해서 
 중지된 컨테이너를 확인이 가능하다.
@@ -16,3 +17,7 @@ docker run -it # interactive + t
 docker start -i -a
 ```
 
+##### 도커파일 관련 명령어
+```bash
+docker build --name  .
+```
