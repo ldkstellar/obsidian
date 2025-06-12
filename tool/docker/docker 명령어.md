@@ -19,5 +19,5 @@ docker start -i -a
 
 ##### 도커파일 관련 명령어
 ```bash
-docker build --name  .
+docker build --name 이미지이름  .
 ```
