@@ -11,5 +11,7 @@ detach #모드에서는  로그를 확인할수 없다. 다른 명령어를 사�
 docker logs #컨테이너_이름해당 컨테이너의 로그를 다 출력한다. 
 
 docker run --name 컨테이너이름 이미지이름 | 이미지id
+
+docker run -it # interactive + terminal
 ```
 
