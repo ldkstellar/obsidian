@@ -1,14 +1,33 @@
 ```dockerfile
+FROM node:latest
 
-From PYTHON# 기본이미지 지정하려면 운영체제레이어가 포함되어야 한다.
+# 하위 명령어 디렉토리지정
 
-WORKDIR /app #디렉토리 생성
+WORKDIR /app
 
-COPY  . . # 첫번째 경로는 컨테이너외부 ,이미지의 외부경로 .은 동일한 폴더임을 알린다. 이프로젝트의 모든 폴더 하위 폴더파일을 복사 두번째 경로는 이미지내부 경로
+# 패키지json을 -> /app
 
-Run np# 기본 루트 npm install
+COPY package.json .
 
-docker run -p(우리의 로컬머신의 port가 무엇이 인는지 알려준다.) 즉 로컬port와 도커 port를 연결하는 역할이다.
-ex: docker run -p 3000:80
-로컬포트 : 도커포트
+  
+
+# docker runs시 실행할 명령어
+
+RUN npm install
+
+# 나머지 모든 디렉토리 파일들 옮긴다. 뒤에있는 레이어만 다시 실행된다.
+
+COPY . .
+
+  
+
+# 3000 port 열기
+
+EXPOSE 3000
+
+  
+
+# 컨테이너 시작시에 실행하는 명령어
+
+CMD [ "node","app.mjs" ]
 ```
