@@ -23,6 +23,10 @@ docker run --name 이미지이름 | 이미지id
 docker run -it # interactive + t
 
 docker start -i -a
+
+docker rmi 이미지id # 이미지 삭제
+
+docker image prune #로컬 이미지 전체 삭제
 ```
 
 ##### 도커컨테이너 관련 명령어
