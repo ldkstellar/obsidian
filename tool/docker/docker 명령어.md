@@ -1,8 +1,10 @@
 ##### 도커파일 관련 명령어
+
 ```bash
 docker build --name 이미지이름  .
 ```
 ##### 도커 이미지관련 명령어
+
 ```bash
 docker images # 도커이미지들 출력
 docker ps -a 명령어를 사용해서 
@@ -16,7 +18,7 @@ detach # 모드에서는  로그를 확인할수 없다. 다른 명령어를 사
 
 docker logs #컨테이너_이름해당 컨테이너의 로그를 다 출력한다. 
 
-docker run --name 컨테이너이름 이미지이름 | 이미지id
+docker run --name 이미지이름 | 이미지id
 
 docker run -it # interactive + t
 
@@ -24,3 +26,7 @@ docker start -i -a
 ```
 
 ##### 도커컨테이너 관련 명령어
+
+```bash
+docker rm 컨테이너이름
+```
