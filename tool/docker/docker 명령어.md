@@ -1,3 +1,7 @@
+##### 도커파일 관련 명령어
+```bash
+docker build --name 이미지이름  .
+```
 ##### 도커 이미지관련 명령어
 ```bash
 docker images # 도커이미지들 출력
@@ -19,7 +23,4 @@ docker run -it # interactive + t
 docker start -i -a
 ```
 
-##### 도커파일 관련 명령어
-```bash
-docker build --name 이미지이름  .
-```
+##### 도커컨테이너 관련 명령어
