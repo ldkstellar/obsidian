@@ -1,3 +1,4 @@
+[[통신이란]]
 1. 서버 pc에서 openssh-server를 받고 실행해 준다.
 
 ```bash
