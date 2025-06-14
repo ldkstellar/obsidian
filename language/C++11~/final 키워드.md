@@ -1,3 +1,4 @@
+[[개체 지향]]
 final 키워드로 클래스 상속을 막을 수 있다.
 ```cpp
 class Animal final{
