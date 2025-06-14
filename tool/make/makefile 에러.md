@@ -1,0 +1,1 @@
+No rule to make target :직역하면 규칙이없다 타겟을 만들 이름을 잘못 쓴 경우가 높다.
