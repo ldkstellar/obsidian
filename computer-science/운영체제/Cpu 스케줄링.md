@@ -1,4 +1,4 @@
-
+[[Cpu 스케줄링 종류]]
 ##### FcFs(First-come First-served)
 
 | process | 금번 cpu 사용시간 |
