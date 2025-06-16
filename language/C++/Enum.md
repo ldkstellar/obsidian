@@ -3,3 +3,12 @@
 목적
 - 가독성 향상
 - 타입 안정성
+
+```cpp
+enum Direction{
+NORTH,
+EAST,
+SOUTH,
+WEST,
+};//
+```
