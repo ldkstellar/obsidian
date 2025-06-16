@@ -10,5 +10,6 @@ NORTH,
 EAST,
 SOUTH,
 WEST,
-};//
+};
+enum Direction dir = NORTH;// 사용할 때
 ```
