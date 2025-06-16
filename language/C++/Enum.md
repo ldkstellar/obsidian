@@ -13,3 +13,5 @@ WEST,
 };
 enum Direction dir = NORTH;// 사용할 때
 ```
+
+결과적으로 컴파일러가 정수형으로 변환을 해줌
