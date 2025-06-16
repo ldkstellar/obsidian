@@ -15,3 +15,12 @@ int score = myclass->GetScore(NULL);
 
 ##### Null vs nullptr
 숫자 vs null포인터 상수
+
+```cpp
+int number = NULL; //ok
+int *ptr = NULL; //ok
+
+int anotherNumber = nullptr; //error
+int* anotherPtr =nullptr; //ok
+
+```
