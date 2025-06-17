@@ -48,6 +48,11 @@ install(TARGETS vincent_driver
 #include <rclcpp_components/register_node_macro.hpp>
 RCLCPP_COMPONENTS_REGISTER_NODE(palomino::VincentDriver)
 ```
-	주의! 대체하려는 메인메서드가 멀티스레드 실행자가 포함될경우 컨테이너노드가 멀티스레드인지 확실이 기록해라
+주의! 대체하려는 메인메서드가 멀티스레드 실행자가 포함될경우 컨테이너노드가 멀티스레드인지 확실이 기록해라.
+
+5. cmake 바꾸기
+	첫번째로 rclcpp_컴퍼넌트들을 추가한다. 의존성으로서 cmake.Lists.txt에
+	
+	
 	
 
