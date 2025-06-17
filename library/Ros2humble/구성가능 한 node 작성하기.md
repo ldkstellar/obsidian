@@ -21,3 +21,14 @@ int main(int argc, char * argv[])
 ```
 
 2. cmake로 실행 파일을 만든다.
+
+```cmake
+# ...
+add_executable(vincent_driver src/vincent_driver.cpp)
+# ...
+install(TARGETS vincent_driver
+    DESTINATION lib/${PROJECT_NAME}
+)
+```
+
+3. vozlwl dml
