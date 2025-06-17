@@ -73,5 +73,4 @@ rclcpp_components_register_node(
     EXECUTABLE vincent_driver
 )
 ```
-
-마지
+이전 대상에서 작동하던 CMake의 모든 설치 명령을 변경하여 대신 라이브러리 버전을 설치합니다.
