@@ -57,7 +57,10 @@ RCLCPP_COMPONENTS_REGISTER_NODE(palomino::VincentDriver)
 find_package(rclcpp_components REQUIRED)
 ```
 
-두번째 add_excutable을 
+두번째 add_excutable을 add_library로 대체
+```cmake
+add_library(vincent_driver_component src/vincent_driver.cpp)
+```
 	
 	
 	
