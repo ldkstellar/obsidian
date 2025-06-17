@@ -61,7 +61,7 @@ find_package(rclcpp_components REQUIRED)
 ```cmake
 add_library(vincent_driver_component src/vincent_driver.cpp)
 ```
-	
-	
+3번째 다른 빌드명령어를 대체한다. 그리고 빌드명령어는 이전대상을 사용하여 새로운 대상에 적용한다.
+잊지말아라 `rclcpp_components` in `ament_target_dependencies`. i.e. `ament_target_dependencies(vincent_driver ...)` becomes `ament_target_dependencies(vincent_driver_component "rclcpp_components" ...)`	
 	
 
