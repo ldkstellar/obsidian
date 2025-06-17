@@ -31,4 +31,23 @@ install(TARGETS vincent_driver
 )
 ```
 
-3. vozlwl dml
+3. 패키지 의존성 추가하기
+```xml
+<depend>rclcpp_components</depend>
+```
+대안으로 build_depend/exec_depend를 사용한다.
+
+```xml
+<build_depend>rclcpp_components</build_depend>
+<exec_depend>rclcpp_components</exec_depend>
+```
+
+4. 더이상 메인메서드 필요없다.
+너의 메서드는 매크로로 대체가 될 수 있다.
+```cpp
+#include <rclcpp_components/register_node_macro.hpp>
+RCLCPP_COMPONENTS_REGISTER_NODE(palomino::VincentDriver)
+```
+	주의! 대체하려는 메인메서드가 멀티스레드 실행자가 포함될경우 컨테이너노드가 멀티스레드인지 확실이 기록해라
+	
+
