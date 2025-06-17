@@ -74,3 +74,4 @@ rclcpp_components_register_node(
 )
 ```
 이전 대상에서 작동하던 CMake의 모든 설치 명령을 변경하여 대신 라이브러리 버전을 설치합니다.
+lib/${PROJECT_NAME}에 두 대상을 설치하지 마세요. 라이브러리 설치로 대체하세요.
