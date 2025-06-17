@@ -65,3 +65,13 @@ add_library(vincent_driver_component src/vincent_driver.cpp)
 잊지말아라 `rclcpp_components` in `ament_target_dependencies`. i.e. `ament_target_dependencies(vincent_driver ...)` becomes `ament_target_dependencies(vincent_driver_component "rclcpp_components" ...)`	
 	
 
+4번째 새로운 명령어를 추가한다 너의 컴퍼넌트를 선언하기 위해서
+```cmake
+rclcpp_components_register_node(
+    vincent_driver_component
+    PLUGIN "palomino::VincentDriver"
+    EXECUTABLE vincent_driver
+)
+```
+
+마지
