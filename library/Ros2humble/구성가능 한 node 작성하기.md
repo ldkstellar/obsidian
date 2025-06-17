@@ -1,3 +1,4 @@
+
 > 즉 이말은 다른 노드와도 같이 통신가능하도록 만들기 쉽게 하기위한 방법인것 같다.
 
 1. 노드를 다이렉트로 상속한 클래스 그리고 메인메소드를 정의한다.
@@ -86,4 +87,4 @@ install(TARGETS vincent_driver_component
 ```
 
 6. 너의 코드를 실행
-See the [Composition tutorial](https://docs.ros.org/en/humble/Tutorials/Intermediate/Composition.html) for an in-depth look at composing nodes. The quick and dirty version is that if you had the following in your Python launch file,
+See the [[하나의 프로세스에 멀티 노드를 구성하는 방법]] for an in-depth look at composing nodes. The quick and dirty version is that if you had the following in your Python launch file,
