@@ -84,3 +84,6 @@ install(TARGETS vincent_driver_component
         RUNTIME DESTINATION bin
 )
 ```
+
+6. 너의 코드를 실행
+See the [Composition tutorial](https://docs.ros.org/en/humble/Tutorials/Intermediate/Composition.html) for an in-depth look at composing nodes. The quick and dirty version is that if you had the following in your Python launch file,
