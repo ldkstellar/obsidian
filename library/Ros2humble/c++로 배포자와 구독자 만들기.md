@@ -20,7 +20,7 @@ using namespace std::chrono_literals;
 class MinimalPublisher : public rclcpp::Node
 {
   public:
-    MinimalPublisher()
+    MinimalPublisher()// 퍼블리셔 새성
     : Node("minimal_publisher"), count_(0)
     {
       publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
@@ -38,7 +38,7 @@ class MinimalPublisher : public rclcpp::Node
     }
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
-    size_t count_;
+    size_t count_;// 카운트 멤버 변수
 };
 
 int main(int argc, char * argv[])
