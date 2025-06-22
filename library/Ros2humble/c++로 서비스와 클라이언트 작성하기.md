@@ -9,11 +9,11 @@ ros2 pkg create --build-type ament_cmake --license Apache-2.0 cpp_srvcli --depen
 
 ```srv
 int64 a
-int64 b
+int64 b 
 ---
 int64 sum
 ```
-
+다음은 request와 response의 관계이다.
 ### 3. 서비스 노드 작성하기
 
 ```cpp
