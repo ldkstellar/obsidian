@@ -20,12 +20,12 @@ using namespace std::chrono_literals;
 class MinimalPublisher : public rclcpp::Node
 {
   public:
-    MinimalPublisher()// 퍼블리셔 새성
+    MinimalPublisher() // 퍼블리셔 새성
     : Node("minimal_publisher"), count_(0)
     {
       publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
       timer_ = this->create_wall_timer(
-      500ms, std::bind(&MinimalPublisher::timer_callback, this));
+      500ms, std::bind(&MinimalPublisher::timer_callback, this));// this를 넣어주는 이유는 고유의 node라는 것을 구별하기위해서야?
     }
 
   private:
