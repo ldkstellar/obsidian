@@ -26,7 +26,7 @@ void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request> req
           std::shared_ptr<example_interfaces::srv::AddTwoInts::Response>      response)
 // request  response를 받눈더
 {
-  response->sum = request->a + request->b;
+  response->sum = request->a + request->b;// 받은 값을 연산을 한다.
   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: %ld" " b: %ld",
                 request->a, request->b);
   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [%ld]", (long int)response->sum);
@@ -73,12 +73,11 @@ int main(int argc, char **argv)
     node->create_client<example_interfaces::srv::AddTwoInts>("add_two_ints");
 
   auto request = std::make_shared<example_interfaces::srv::AddTwoInts::Request>();
-  request->a = atoll(argv[1]);
+  request->a = atoll(argv[1]);// request 요청을만든다
   request->b = atoll(argv[2]);
 
   while (!client->wait_for_service(1s)) {
-    if (!rclcpp::ok()) {
-      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
+    if (!rclcpp::ok()) {RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
       return 0;
     }
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
@@ -98,3 +97,6 @@ int main(int argc, char **argv)
   return 0;
 }
 ```
+
+### 결론
+전체 매커니즘은 client-> 요청을 보내고 server에서 연산을하고 다시 client로 전달하는 메커니즘이다.
