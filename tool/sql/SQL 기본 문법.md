@@ -59,3 +59,16 @@ PRIMARY KEY(student_id)
 ```
 
 ### 비교 문법
+```sql
+-- equals
+=
+-- not equals
+<>
+-- greater than
+>
+-- greather than or equal
+>=
+-- less than or equal
+<=
+
+```
