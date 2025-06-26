@@ -57,3 +57,5 @@ major VARCHAR(20) UNIQUE
 PRIMARY KEY(student_id)
 );
 ```
+
+### 비교 문법
