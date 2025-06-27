@@ -72,3 +72,36 @@ PRIMARY KEY(student_id)
 <=
 
 ```
+
+### find 문법
+```sql
+SELECT student.name, student.major from student
+-- 정렬 
+ORDER BY name Desc;
+
+SELECT * FROM student
+
+ORDER BY student_id ASC;
+
+SELECT * FROM student
+
+ORDER BY student_id DESC
+
+LIMIT 3;
+
+SELECT name ,major from student
+-- 찾기
+where name = 'Sam' OR name = 'Kate' ;
+
+  
+
+SELECT * FROM student
+
+where student_id <=3 AND name <>'Sam'
+
+  
+
+SELECT * FROM student s
+-- 찾기
+WHERE name IN('Kante','Job')
+```
