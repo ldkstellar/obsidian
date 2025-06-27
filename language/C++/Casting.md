@@ -5,6 +5,54 @@
 - 프로그래머가 명시적으로 형 변환을 안 할 경우
 그냥 더 큰 비트수를 가진 것으로 옮 길수 있다고 알자
 ##### 명시적(Explicit) 캐스팅
+```cpp
+class MyClass {
+
+public:
+
+    MyClass(int x) {
+
+        std::cout << "MyClass 생성자 호출됨: " << x << '\n';
+
+    }
+
+};
+
+  
+
+void print(MyClass obj) {
+
+    std::cout << "print 호출됨\n";
+
+}
+
+  
+
+int main() {
+
+    print(42);  // ✅ int → MyClass 로 암시적 변환됨
+
+}
+```
+explict가 없으면 컴파일러가 생성자를 호출해서 형변환 시킨다 이를 막기위해서 explict 키워드를 사용한다.
+
+```cpp
+class MyClass {
+public:
+    explicit MyClass(int x) {
+        std::cout << "MyClass 생성자 호출됨: " << x << '\n';
+    }
+};
+
+void print(MyClass obj) {
+    std::cout << "print 호출됨\n";
+}
+
+int main() {
+    print(42);           // ❌ 오류: 암시적 변환 불가
+    print(MyClass(42));  // ✅ 명시적 생성
+}
+```
 
 - 프로그래머가 형 변환을 위한 코드를 직접 작성
 - c++ 캐스팅
