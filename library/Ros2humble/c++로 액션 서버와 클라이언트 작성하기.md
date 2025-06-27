@@ -7,7 +7,8 @@ ros2 pkg create --dependencies action_tutorials_interfaces rclcpp rclcpp_action 
 ```
 
 2. 액션 서버 작성하기
-피보나치를 계산하는 액션 서버를 작성하자
+피보나치를 계산하는 액션서버를 작성하자
+
 ```cpp
 #include <functional>
 #include <memory>
