@@ -1,5 +1,5 @@
 
-> 즉 이말은 다른 노드와도 같이 통신가능하도록 만들기 쉽게 하기위한 방법인것 같다.
+> 즉 이말은 같은 프로세스에서다른 노드와도 같이 통신가능하도록 만들기 쉽게 하기위한 방법인것 같다. 동적로드
 
 1. 노드를 다이렉트로 상속한 클래스 그리고 메인메소드를 정의한다.
 
@@ -32,6 +32,8 @@ install(TARGETS vincent_driver
 )
 ```
 
+### 코드 업데이트
+
 3. 패키지 의존성 추가하기
 ```xml
 <depend>rclcpp_components</depend>
@@ -43,7 +45,8 @@ install(TARGETS vincent_driver
 <exec_depend>rclcpp_components</exec_depend>
 ```
 
-4. 더이상 메인메서드 필요없다.
+4. 클
+5. 더이상 메인메서드 필요없다.
 너의 메서드는 매크로로 대체가 될 수 있다.
 ```cpp
 #include <rclcpp_components/register_node_macro.hpp>
