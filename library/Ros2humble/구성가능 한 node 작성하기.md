@@ -45,8 +45,11 @@ install(TARGETS vincent_driver
 <exec_depend>rclcpp_components</exec_depend>
 ```
 
-4. 클
-5. 더이상 메인메서드 필요없다.
+4. 클래스 정의
+```cpp
+
+```
+4. 더이상 메인메서드 필요없다.
 너의 메서드는 매크로로 대체가 될 수 있다.
 ```cpp
 #include <rclcpp_components/register_node_macro.hpp>
