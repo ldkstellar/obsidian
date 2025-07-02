@@ -53,7 +53,7 @@ VincentDriver(const rclcpp::NodeOptions & options) : Node("vincent_driver", opti
 }
 ```
 단지 변화 클래스 정의에서는 너가 해야되는 것은 클래스에서 생성자에 Nodeoptions 아규먼트를 갖는것이다.
-4. 더이상 메인메서드 필요없다.
+5. 더이상 메인메서드 필요없다.
 너의 메서드는 매크로로 대체가 될 수 있다.
 ```cpp
 #include <rclcpp_components/register_node_macro.hpp>
@@ -61,7 +61,7 @@ RCLCPP_COMPONENTS_REGISTER_NODE(palomino::VincentDriver)
 ```
 주의! 대체하려는 메인메서드가 멀티스레드 실행자가 포함될경우 컨테이너노드가 멀티스레드인지 확실이 기록해라.
 
-5. cmake 바꾸기
+6. cmake 바꾸기
 첫번째로 rclcpp_컴퍼넌트들을 추가한다. 의존성으로서 cmake.Lists.txt에
 	
 ```cmake
