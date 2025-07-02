@@ -47,8 +47,12 @@ install(TARGETS vincent_driver
 
 4. 클래스 정의
 ```cpp
-
+VincentDriver(const rclcpp::NodeOptions & options) : Node("vincent_driver", options)
+{
+  // ...
+}
 ```
+단지 
 4. 더이상 메인메서드 필요없다.
 너의 메서드는 매크로로 대체가 될 수 있다.
 ```cpp
