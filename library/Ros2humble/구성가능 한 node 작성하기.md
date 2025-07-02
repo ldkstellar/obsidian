@@ -52,7 +52,7 @@ VincentDriver(const rclcpp::NodeOptions & options) : Node("vincent_driver", opti
   // ...
 }
 ```
-단지 
+단지 변화 클래스 정의에서는 너가 해야되는 것은 클래스에서 생성자에 Nodeoptions 아규먼트를 갖는것이다.
 4. 더이상 메인메서드 필요없다.
 너의 메서드는 매크로로 대체가 될 수 있다.
 ```cpp
