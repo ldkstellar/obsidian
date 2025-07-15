@@ -3,5 +3,5 @@
 - Cmake: 코드 생성, 빌드
 
 ### ament와 ament_cmake의 관계
-ament: Ros2의 빌드 시스템 전체 이름이다.
-ament_cmake:
+- ament: Ros2의 빌드 시스템 전체 이름이다.
+- ament_cmake: ament의 하위 모듈로, CMake를 사용하는 패키지를 빌드하기 위한 플러그인 역할
