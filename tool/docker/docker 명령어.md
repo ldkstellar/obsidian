@@ -22,6 +22,8 @@ docker run --name 이미지이름 | 이미지id
 
 docker run -it # interactive + t
 
+docker run -p 3000:80 # 외부 포트 내부 포트 연결
+
 docker start -i -a
 
 docker rmi 이미지id # 이미지 삭제
