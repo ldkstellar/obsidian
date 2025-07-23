@@ -30,6 +30,7 @@ docker start -i -a
 
 docker rmi 이미지id # 이미지 삭제
 
+docker images inspect 이미
 docker image prune #로컬 이미지 전체 삭제
 ```
 
