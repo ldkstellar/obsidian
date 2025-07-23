@@ -32,5 +32,5 @@ docker image prune #로컬 이미지 전체 삭제
 ##### 도커컨테이너 관련 명령어
 
 ```bash
-docker rm 컨테이너이름
+docker rm 컨테이너이름 # 컨테이너 삭제
 ```
