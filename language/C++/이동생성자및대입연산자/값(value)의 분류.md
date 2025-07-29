@@ -6,4 +6,6 @@
 	- const 변수
 	- 배열 변수
 	- 비트 필드 (bit-fields)
+	-  공용 구조체(unions)
+	- 클래스 멤버
 	- 
