@@ -39,3 +39,5 @@
 - && 연산자는 rvlaue참조에 사용
 
 ### std::move()
+- rvalue 참조를 반환
+- lvalue를 rvalue로 변환
