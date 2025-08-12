@@ -42,3 +42,4 @@ constexpr
 결국 둘다 const이다.
 
 ![[Pasted image 20250812132531.png]]
+![[Pasted image 20250812132830.png]]
