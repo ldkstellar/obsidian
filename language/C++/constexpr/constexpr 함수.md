@@ -30,3 +30,12 @@ for (int i =0; i<str.length();i++){
 - 비용을 절감하려면
 -  문자열의 해쉬를 생성할 수 있음: O(N)
 -  그 후에 해쉬 값(정수)을 비교:O(1)
+![[Pasted image 20250812132105.png]]
+
+const vs constexpr
+const 
+- 변경을 불허 
+constexpr 
+- 컴파일 시에 평가해주면 좋겠음
+
+결국 둘다 const이다.
