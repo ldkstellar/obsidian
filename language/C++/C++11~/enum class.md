@@ -14,8 +14,13 @@ enum class eScoreType: uint8_t
 	Assignment3,
 	Midterm,
 	Final =0x100, //warning
-
 }
 ```
 
 ### enum과 enum class의 차이점
+
+| 특징     | enum      | enum class                |
+| ------ | --------- | ------------------------- |
+| 스코프    | 전역 네임스페이스 | 열거자 내부에만 존재 -> Color::RED |
+| 타입 안정성 |           |                           |
+|        |           |                           |
