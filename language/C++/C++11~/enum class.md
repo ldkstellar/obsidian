@@ -4,6 +4,7 @@
 - 또한 enum에 할당할 바이트양을 정할 수도 있음
 
 ##### enum class용 정수형 명시하기
+
 ```cpp
 #include<cstdint>
 enum class eScoreType: uint8_t
@@ -16,3 +17,5 @@ enum class eScoreType: uint8_t
 
 }
 ```
+
+### enum과 enum class의 차이점
