@@ -9,3 +9,4 @@ int printf(const char* foramt ,...);
 
 ![[Pasted image 20250818135427.png]]
 ![[Pasted image 20250818135555.png]]
+![[Pasted image 20250818135727.png]]
