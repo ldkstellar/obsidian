@@ -8,3 +8,4 @@ int printf(const char* foramt ,...);
 - 매개변수 목록에서 생략부호(...)를 씀
 
 ![[Pasted image 20250818135427.png]]
+![[Pasted image 20250818135555.png]]
