@@ -12,3 +12,5 @@ std::scoped_lock
 std::mutex sMutex;
 std::scope_Lock<std::mutex>(sMutex);
 ```
+
+- 매개변수로 전달된 
