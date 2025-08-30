@@ -7,3 +7,6 @@ void lock();
 
 ### 데드락 해결책
 std::scoped_lock
+```cpp
+
+```
