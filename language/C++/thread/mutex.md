@@ -13,4 +13,4 @@ std::mutex sMutex;
 std::scope_Lock<std::mutex>(sMutex);
 ```
 
-- 매개변수로 전달된 
+- 매개변수로 전달된 뮤텍들을 내포하는 개체를 만듬
