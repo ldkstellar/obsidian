@@ -1,7 +1,8 @@
 - 멀티스레드 환경에서 공유 자원에 동시에 접근하지 못하게 막는 동기화 도구
 - 다른스레드가사용시 거기부분까지 stop이라는거네
 ```cpp
-void lock();
+void lock(); // mutex 잠금
+void unlock(); // mutex 품
 ```
 - 뮤텍스를 잠근다
 - 동일한 쓰레드에서 두번 잠그면 deadlcok 발생
