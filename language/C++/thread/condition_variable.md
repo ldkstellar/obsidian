@@ -11,3 +11,7 @@
 - 생성시에 lock을 잠그지 않을 수 있다. (두 번째 매개변수로  std::defer_lock을 전달할 것)
 - std::recursive_mutex와 함께 써서 재귀적으로 잠글 수 있음
 -  조건 변수에 쓸 수 있는 유일한 lock
+
+### wait
+- 현재 쓰레드 뮤텍스의 잠금을 풀고(다른스레드가 ) notify_one() 또는 notify_all을 기다린다.
+- 깨어나면, 뮤텍스를 다시 잠근다
