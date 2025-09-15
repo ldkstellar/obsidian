@@ -1,0 +1,2 @@
+- gpg는 gnu privacy guard의 약자
+- 
