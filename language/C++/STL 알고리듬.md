@@ -20,4 +20,4 @@ numeric
 
 #### sort 알고리즘 
  - 비교 함수 형태: bool compare()
- - 반환 값의 의미
+ - 반환 값의 의미 차
