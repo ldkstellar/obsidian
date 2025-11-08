@@ -4,7 +4,7 @@
 2.  start - 이미 생성된 컨테이너를 실행한다.
    docker start -ai ros_jazzy
 3. exec - 이미 실행중인 컨테이너 안에서 명령어 실행
-
+docker -ps는 실행중인 도커 컨테이너
 ##### 도커파일 관련 명령어
 
 ```bash
