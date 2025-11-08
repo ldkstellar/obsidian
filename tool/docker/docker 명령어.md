@@ -38,4 +38,6 @@ docker image prune #로컬 이미지 전체 삭제
 
 ```bash
 docker rm 컨테이너이름 # 컨테이너 삭제
+docker run -it --name my_container ubuntu /bin/bash # 컨테이너를 등록하고 실행
+docker start -it --name mu_container ubuntu /bin/zsh # 컨테이너 실행중에 실행
 ```
